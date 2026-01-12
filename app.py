@@ -78,7 +78,7 @@ with st.sidebar:
         
     elif scenario == 5:
         st.subheader("📌 Additional Parameters")
-        target_percentile = st.selectbox("Target Percentile", [50, 60, 75, 90], index=0)
+        target_percentile = st.selectbox("Target Percentile", [30, 40, 50, 60, 75, 90], index=0)
         additional_params = {'target_percentile': target_percentile}
     
     st.markdown("---")
